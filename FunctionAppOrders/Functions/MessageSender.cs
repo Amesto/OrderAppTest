@@ -17,6 +17,7 @@ namespace FunctionAppOrders.Functions
 
         /// <summary>
         /// Funtion generate message and upload json file to Azure blob storage
+        /// /// This will not run with setting UseDevelopmentStorage=true!
         /// </summary>
         /// <param name="myTimer"></param>
         /// <returns></returns>

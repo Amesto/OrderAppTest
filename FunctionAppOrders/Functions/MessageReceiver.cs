@@ -17,6 +17,7 @@ namespace FunctionAppOrders.Functions
 
         /// <summary>
         /// Function reads message from order queue and upload to blob storage
+        /// This will not run with setting UseDevelopmentStorage=true!
         /// </summary>
         /// <param name="myQueueItem"></param>
         /// <returns></returns>
